@@ -37,7 +37,7 @@ You will need a micro SD card for running the operating system on the Raspberry 
 ##### 4. WIFI dongle
 It is strongly recommended that you buy a WIFI dongle, so your Pi does not have to be connected to an Ethernet cable. You can buy the original WiPi dongle [here.] (https://www.raspberrypi.org/products/usb-wifi-dongle/)
 
-If you want to buy another, cheaper dongle, [here is the list of working dongles.] (http://elinux.org/RPi_USB_Wi-Fi_Adapters/)
+If you want to buy another, cheaper dongle, [here is the list of working dongles.] (http://elinux.org/RPi_USB_Wi-Fi_Adapters)
 
 ##### 5. Formatting the SD-card
 Before you can put any OS on your SD-card, you have to format it first. 
