@@ -14,11 +14,13 @@ A live chat to get help and discuss mirror related issues: https://gitter.im/eva
 
 ### Getting Started
 #### Hardware Components
-- Raspberry Pi 2** (Only the Raspberry Pi 2 is compatible with the mirror ATM) 
+- Raspberry Pi 2** (Only the Raspberry Pi 2 is capable of running the software) 
 - USB Microphone (Or Webcam w/ microphone)
+- HDMI cable
+- USB keyboard and mouse
 - Monitor (with the bezel removed)
 - Mirror Pane (aka Observation Glass/Two way mirror)
-- Philips Hue lights
+- Philips Hue lights (Optional)
 
 ** Also compatible with other Linux, Windows, and OSX devices. See the `cordova` branch for Android and iOS compatibility.
 
@@ -53,6 +55,10 @@ After the SD card is done formatting, you have do download Raspbian OS for your 
 - After the OS has downloaded, unzip the file, and copy the whole content of the folder over to your SD-card.
 
 Your SD card is now ready to be inserted to your Raspberry Pi!
+
+#### Configure your Raspberry Pi
+
+
 
 You'll also need to install Node (v4.0.0+) which now comes bundled with npm.
 ```
