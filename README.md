@@ -24,7 +24,7 @@ A live chat to get help and discuss mirror related issues: https://gitter.im/eva
 
 ** Also compatible with other Linux, Windows, and OSX devices. See the `cordova` branch for Android and iOS compatibility.
 
-#### How to set up the Raspberry Pi
+### How to set up the Raspberry Pi
 
 ##### 1. Raspberry Pi 2
 Buy a Raspberry Pi 2 if you haven't already [(Click here.)] (https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) 
@@ -56,33 +56,56 @@ After the SD card is done formatting, you have do download Raspbian OS for your 
 
 Your SD card is now ready to be inserted to your Raspberry Pi!
 
-#### Configure your Raspberry Pi
+### Configure your Raspberry Pi
 
 ![NOOBS setup](http://www.howtogeek.com/wp-content/uploads/2013/10/ximg_524d91f199b4f.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.-K1DimTb0H.png)
 
-1. The first thing you will see when you fire your Raspberry Pi up, is the screen as shown above. At this point, you don't have to do anything, as the Pi is setting itself up automatically.
+- The first thing you will see when you fire your Raspberry Pi up, is the screen as shown above. At this point, you don't have to do anything, as the Pi is setting itself up automatically.
 
-2. When the Pi is done setting up, you will see the following picture on your screen.
+- When the Pi is done setting up, you will see the following picture on your screen.
 
 ![NOOBS setup2](http://www.howtogeek.com/wp-content/uploads/2013/10/ximg_524d9fb0d8009.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.T4Gsgg_9du.png)
 
-3. On this picture, you have seven OS to choose of. Sometimes, depending on what version you have downloaded, there is only one OS, Raspbian. You only have to tick "Raspbian" off.
+- On this picture, you have seven OS to choose of. Sometimes, depending on what version you have downloaded, there is only one OS, Raspbian. You only have to tick "Raspbian" off.
 
-4. When you have ticked Raspbian off, you simply click on the "Install" button, and the Raspbian is now installing on your Pi.
+- When you have ticked Raspbian off, you simply click on the "Install" button, and the Raspbian is now installing on your Pi.
 
 The installationprocess will take some time, so make a cup of coffee and enjoy!
 
+When your RasPi boots up again, you should see your new desktop!
+
+![NOOBS setup2](https://www.howtoforge.com/images/raspbian_basics/desktop.jpeg)
 
 
+Now, before you do anything, you have to update and upgrade all the drivers, packages etc. on the Pi. So open up LXTerminal
 
 
+![NOOBS setup2](https://rohankapoor.com/wp-content/uploads/2012/06/03-Update-Packages.png)
 
-You'll also need to install Node (v4.0.0+) which now comes bundled with npm.
+
+Write the following command as the picture shows:
+
+```
+sudo apt-get update
+```
+
+
+After the RasPi is finished updating, you need to run one more command:
+
+```
+sudo apt-get upgrade
+```
+
+Now you are sure your RasPi is fully updated. Next step is installing Node, which now comes bundled with npm.
+
+Type this in LXTerminal:
+
 ```
 wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz 
 tar -xvf node-v4.0.0-linux-armv7l.tar.gz 
 cd node-v4.0.0-linux-armv7l
 ```
+
 Copy to /usr/local
 ```
 sudo cp -R * /usr/local/
