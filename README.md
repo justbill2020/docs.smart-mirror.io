@@ -70,8 +70,6 @@ Your SD card is now ready to be inserted to your Raspberry Pi!
 
 4. When you have ticked Raspbian off, you simply click on the "Install" button, and the Raspbian is now installing on your Pi.
 
-![NOOBS setup3](http://www.howtogeek.com/wp-content/uploads/2013/10/ximg_524d9fb0d8009.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.T4Gsgg_9du.png)
-
 The installationprocess will take some time, so make a cup of coffee and enjoy!
 
 
