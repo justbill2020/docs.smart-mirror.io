@@ -4,8 +4,7 @@
         "youtube",
         "github",
         "addcssjs",
-        "hide-published-with",
-		"translated"
+        "hide-published-with"
     ],
     "pluginsConfig": {
         "ga": {
@@ -17,11 +16,8 @@
         },
         "addcssjs": {
             "js": [
-                "docs/lib/custom.js"
+                "lib/custom.js"
             ]
-        },
-		"translated": {
-			"regexp": "/[a-zA-Z]/"
-		}
+        }
     }
 }
