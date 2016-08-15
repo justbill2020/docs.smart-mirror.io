@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        "ga",
+        "youtube",
+        "github",
+        "addcssjs",
+        "hide-published-with"
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-73330169-1",
+            "configuration": "auto"
+        },
+        "github": {
+            "url": "https://github.com/evancohen/smart-mirror"
+        },
+        "addcssjs": {
+            "js": [
+                "docs/lib/custom.js"
+            ]
+        }
+    }
+}

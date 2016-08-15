@@ -1,0 +1,23 @@
+/* CSS for website */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,600,400,600italic,700,700italic,800,800italic);
+
+* {   
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.book .book-body .navigation.navigation-prev, .book .book-body .navigation.navigation-next {
+  display: none;
+}
+
+#book-search-input {
+    background: rgba(255,255,255,.1);
+}
+
+ul.summary > li:first-child {
+    display: none;
+}
+
+li.divider {
+    display: none;
+}
